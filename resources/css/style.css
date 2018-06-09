@@ -36,23 +36,31 @@ html {
   }
 }
 
-----------------
+/********************************************************/
 body {
   border-style: solid;
   border-color: red;
   height: 100vh;
+  margin: 0;
 }
 
 .header {
-  position: absolute;
+  /* position: absolute; */
   height: 80px;
-  border-bottom-width: 2px;
+  border-bottom: 2px solid blue;
+}
+
+.main-body {
+  /* position: absolute; */
+  top: 82px;
+  border-width: 2px;
+  height: 100vh-(2*82px);
 }
 
 .footer {
-  position: absolute;
+  /* position: absolute; */
   height: 80px;
-  top: 100vh-82px;
+  bottom: 100vh;
 
-  border-top-width: 2px;
+  border-top: 2px solid red;
 }
