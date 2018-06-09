@@ -30,8 +30,29 @@ html {
   .mobile-hide {
     display: none;
   }
-  
+
   .mobile-show {
     display: inherit;
   }
+}
+
+----------------
+body {
+  border-style: solid;
+  border-color: red;
+  height: 100%
+}
+
+.header {
+  position: absolute;
+  height: 80px;
+  border-bottom-width: 2px;
+}
+
+.footer {
+  position: absolute;
+  height: 80px;
+  top: 100vh-82px;
+
+  border-top-width: 2px;
 }
