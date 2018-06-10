@@ -1,4 +1,7 @@
 /****************************** Universal Styles ******************************/
+*, *:before, *:after {
+  box-sizing: border-box;
+}
 
 html {
   font-family: Helvetica;
@@ -47,20 +50,23 @@ body {
 .header {
   position: absolute;
   height: 80px;
-  border-bottom: 2px solid blue;
+  width: 100vw;
+
+  border-bottom: 1px solid blue;
 }
 
 .main-body {
-  position: absolute;
-  top: 82px;
-  border-width: 2px;
-  height: calc(100vh - (2 * 82px));
+  position: relative;
+  top: 81px;
+  width: 100vw;
+  /* height: calc(100vh - (81px + 51px)); */
 }
 
 .footer {
   position: absolute;
-  height: 80px;
-  top: calc(100vh - 82px);
+  bottom: 0vh;
+  height: 50px;
+  width: 100vw;
 
-  border-top: 2px solid red;
+  border-top: 1px solid red;
 }
