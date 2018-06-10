@@ -55,7 +55,7 @@ body {
   border-bottom: 1px solid blue;
 }
 
-.main-body {
+.main_body {
   position: relative;
   top: 81px;
   width: 100vw;
