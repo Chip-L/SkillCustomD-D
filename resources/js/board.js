@@ -14,9 +14,11 @@ Board.Screen = (function($) {
       $('#demo').text('Main_Body height = ' + $mainBody.attr('height'));
     }
 
-  }
+  };
 
   var setScreen = function (className) {
     return $(className).attr("height");
-  }
-}) (jQuery);
+  };
+
+  return Screen;  
+})(jQuery);
