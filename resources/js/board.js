@@ -11,6 +11,7 @@ Board.Screen = (function($) {
       $mainBody = $('.main_body');
 
       $mainBody.attr('height', $header.attr('height') + $footer.attr('height'));
+      $('#demo').text($mainBody.attr('height'));
     }
 
   }
