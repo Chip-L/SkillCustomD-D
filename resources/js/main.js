@@ -1,4 +1,4 @@
 $(document).ready( function () {
-  board = new Board.Screen;
+  var board = new Board.Screen();
   board.init();
 });
